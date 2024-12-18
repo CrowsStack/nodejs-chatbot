@@ -1,0 +1,37 @@
+{
+    "version": 2,
+    "name": "crowsstack-chatbot",
+    "builds": [
+        {
+            "src": "server.js",
+            "use": "@vercel/node"
+        },
+        {
+            "src": "public/**",
+            "use": "@vercel/static"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/api/chat",
+            "dest": "server.js"
+        },
+        {
+            "src": "/",
+            "dest": "public/index.html"
+        },
+        {
+            "src": "/(.*).(js|css|png|jpg|jpeg|gif|ico|svg)",
+            "dest": "public/$1.$2"
+        }
+    ],
+    "env": {
+        "HUGGING_FACE_TOKEN": "@hugging_face_token",
+        "GOOGLE_API_KEY": "@google_api_key",
+        "PORT": "3000"
+    },
+    "regions": ["all"],
+    "github": {
+        "silent": true
+    }
+}

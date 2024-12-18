@@ -1,0 +1,12 @@
+# Ignore cloudfare directory
+cloudfare/
+
+# Common Node.js gitignore additions
+node_modules/
+.env
+.vercel
+.next
+*.log
+.DS_Store
+
+.vercel

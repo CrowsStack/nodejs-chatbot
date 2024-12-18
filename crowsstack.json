@@ -1,0 +1,39 @@
+{
+  "https://crowsstack.com.ng": {
+    "title": "CrowsStack - Home",
+    "description": "Welcome to CrowsStack",
+    "links": [
+      "/company",
+      "/contact",
+      "/faq",
+      "/products"
+    ]
+  },
+  "https://crowsstack.com.ng/company": {
+    "title": "About Us - CrowsStack",
+    "description": "Learn more about CrowsStack"
+  },
+  "https://crowsstack.com.ng/": {
+    "title": "CrowsStack - Home",
+    "description": "Welcome to CrowsStack's official website"
+  },
+  "https://crowsstack.com.ng/contact": {
+    "title": "Contact Us - CrowsStack",
+    "description": "Get in touch with CrowsStack"
+  },
+  "https://crowsstack.com.ng/faq": {
+    "title": "FAQ - CrowsStack",
+    "description": "Frequently Asked Questions about CrowsStack"
+  },
+  "https://crowsstack.com.ng/products": {
+    "title": "Our Products - CrowsStack",
+    "description": "Explore CrowsStack's products and services"
+  },
+  "metadata": {
+    "website": "https://crowsstack.com.ng",
+    "company_name": "CrowsStack",
+    "email": "support@crowsstack.com.ng",
+    "phone": "",
+    "address": ""
+  }
+}
