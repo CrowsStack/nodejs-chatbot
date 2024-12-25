@@ -1,20 +1,897 @@
-[
-  {
-    "url": "https://example.com/",
-    "title": "Example Domain",
-    "headings": [
-      "Example Domain"
-    ],
-    "paragraphs": [
-      "This domain is for use in illustrative examples in documents. You may use this\n    domain in literature without prior coordination or asking for permission.",
-      "More information..."
-    ],
-    "links": [
-      {
-        "href": "https://www.iana.org/domains/example",
-        "text": "More information..."
-      }
-    ],
-    "lastUpdated": "2024-12-10T07:14:14.200Z"
-  }
-]
+{
+  "pages": {
+    "/": {
+      "title": "NdyComms - Solar & Security Solutions",
+      "headings": [
+        "Solar Installation",
+        "CCTV & Security",
+        "Security Solutions",
+        "Our Services",
+        "Solar Installation",
+        "CCTV & Security",
+        "Electric Fencing",
+        "Fire Detection",
+        "Ready to Get Started?",
+        "Our Recent Projects",
+        "How to Install Solar Panels - Complete Guide",
+        "Total Cost of Off-Grid Solar Setup (Tagalog)",
+        "Tesla Solar Roof Review: Was it Worth It?",
+        "Budget-Friendly Solar Generator Setup",
+        "Smart Security System Overview",
+        "Home Energy Management Solutions",
+        "NdyCommunications",
+        "Services",
+        "Quick Links",
+        "Contact Info"
+      ],
+      "paragraphs": [
+        "Harness clean, renewable energy with our professional solar installations",
+        "Advanced surveillance systems for complete peace of mind",
+        "Comprehensive security solutions for your property",
+        "Comprehensive solutions for your energy and security needs",
+        "Harness clean, renewable energy with our professional solar installations",
+        "Advanced surveillance systems for complete peace of mind",
+        "Secure perimeter protection for your property",
+        "Early warning systems to protect life and property",
+        "Contact NdyCommunications today for a free consultation and quote",
+        "Professional installation services for solar, security, and electrical systems.",
+        "© 2024 NdyCommunications. All rights reserved."
+      ],
+      "links": [
+        {
+          "href": "/",
+          "text": "NdyComms"
+        },
+        {
+          "href": "/",
+          "text": "Home"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/services",
+          "text": "Services"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/blog",
+          "text": "Blog"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "/quote",
+          "text": "Get Quote"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact Us"
+        },
+        {
+          "href": "/services#solar",
+          "text": "Solar Installation"
+        },
+        {
+          "href": "/services#cctv",
+          "text": "CCTV Systems"
+        },
+        {
+          "href": "/services#intercom",
+          "text": "Intercom Systems"
+        },
+        {
+          "href": "/services#fencing",
+          "text": "Electric Fencing"
+        },
+        {
+          "href": "/services#fire",
+          "text": "Fire Detection"
+        },
+        {
+          "href": "/about",
+          "text": "About Us"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/blog",
+          "text": "Blog"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "/quote",
+          "text": "Get Quote"
+        },
+        {
+          "href": "mailto:info@ndycomms.com",
+          "text": "Email: info@ndycomms.com"
+        },
+        {
+          "href": "tel:+234 123 456 7890",
+          "text": "Phone: +234 123 456 7890"
+        },
+        {
+          "href": "https://maps.google.com",
+          "text": "Address: Lagos, Nigeria"
+        }
+      ],
+      "lastUpdated": "2024-12-25T21:26:30.499Z"
+    },
+    "/quote": {
+      "title": "NdyComms - Solar & Security Solutions",
+      "headings": [
+        "Get a Quote",
+        "Personal Information",
+        "NdyCommunications",
+        "Services",
+        "Quick Links",
+        "Contact Info"
+      ],
+      "paragraphs": [
+        "Fill out the form below and we'll provide you with a detailed quote for your project",
+        "Professional installation services for solar, security, and electrical systems.",
+        "© 2024 NdyCommunications. All rights reserved."
+      ],
+      "links": [
+        {
+          "href": "/",
+          "text": "NdyComms"
+        },
+        {
+          "href": "/",
+          "text": "Home"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/services",
+          "text": "Services"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/blog",
+          "text": "Blog"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "/quote",
+          "text": "Get Quote"
+        },
+        {
+          "href": "/services#solar",
+          "text": "Solar Installation"
+        },
+        {
+          "href": "/services#cctv",
+          "text": "CCTV Systems"
+        },
+        {
+          "href": "/services#intercom",
+          "text": "Intercom Systems"
+        },
+        {
+          "href": "/services#fencing",
+          "text": "Electric Fencing"
+        },
+        {
+          "href": "/services#fire",
+          "text": "Fire Detection"
+        },
+        {
+          "href": "/about",
+          "text": "About Us"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/blog",
+          "text": "Blog"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "/quote",
+          "text": "Get Quote"
+        },
+        {
+          "href": "mailto:info@ndycomms.com",
+          "text": "Email: info@ndycomms.com"
+        },
+        {
+          "href": "tel:+234 123 456 7890",
+          "text": "Phone: +234 123 456 7890"
+        },
+        {
+          "href": "https://maps.google.com",
+          "text": "Address: Lagos, Nigeria"
+        }
+      ],
+      "lastUpdated": "2024-12-25T21:26:30.697Z"
+    },
+    "/services": {
+      "title": "NdyComms - Solar & Security Solutions",
+      "headings": [
+        "Our Services",
+        "Solar Panel",
+        "Inverters",
+        "Batteries",
+        "Analog & Network Camera",
+        "PTZ Camera",
+        "High - Definition Camera",
+        "Electric Fence System",
+        "Fire Detector & Alarm System",
+        "Ready to Get Started?",
+        "NdyCommunications",
+        "Services",
+        "Quick Links",
+        "Contact Info"
+      ],
+      "paragraphs": [
+        "Our comprehensive services encompass solar energy and security solutions. With our solar expertise, we design and install efficient solar systems to power your space. Our cutting-edge security systems provide robust protection for your property. Experience reliable power and security solutions for a safer and sustainable environment.",
+        "We sell and install durable and highly efficient solar panels such as SunPower, Canadian panels, JinkoSolar, LG Solar, LONGi Solar, and Mission Solar Energy. We have Monocrystalline solar panels, Polycrystalline solar panels and Thin-film (amorphous) solar panels. Also available include panels of different watts ranging from 20 watts to 1000 watts.",
+        "We have reliable and efficient inverters that produce steady voltage while regular amperages for sustaining the batteries. We install pure sinewave and hybrid inverters that delivers optimal performance. Inverters ranging from 2kva to 50kva are available upon demand.",
+        "Strong batteries are the heart of every inverter installation. We have strong and deep-cycle batteries from different brands across the globe. We install maintenance-free solar batteries such as lithium-ion batteries. Lithium iron phosphate (LiFePO4) battery is safe, strong, not burnable and can deliver optimal output for 15 to 20 years. You can contact us today to receive quotes.",
+        "Vandal-proof camera with night vision and full colour, suitable for rugged conditions with the ability to cloak its viewing angle. Applicable in places where extreme security is important such as banks, offices and homes. We have the best video surveillance camera for outdoor purposes with audio capabilities with resolutions ranging from 1080p to 50mp and are compatible with top brands of DVR. Suitable for outdoor residential monitoring.",
+        "We have cameras with extra capabilities to pan, tilt and zoom which provides more functionalities. They are capable of being controlled from remote locations to change directions and focus more on any object. Applicable in parking lots and open spaces with high human/vehicle traffic. We have the top brand of cameras that can show greyscale and full colour at night. It can record full colour in pitch darkness thereby making it a top choice for optimal surveillance. Suitable for street surveillance.",
+        "These cameras have extra functions and capabilities such as extremely high resolution, object identification, and number plate recording. Especially for long-distance recording and traffic control.",
+        "We install a low energy consumption electric fence with high DC pulses. The robust energizers and deep cycle batteries guarantee a steady and reliable supply of voltage across the lines. We can integrate modular solar panels for an offsite location to ensure a steady power supply. Available for Domestic/Residential Fencing, Industrial Perimeter Fencing, and Offsite/Remote Location Fencing.",
+        "At GNL, we prioritize the security of lives and properties as such we bring the best smoke detectors and fire alarm systems. Protect your properties from unexpected fire incidents by installing smoke detectors and an alarm system. We have multi-sensors capable of detecting a wide range of hydrocarbon gases such as Methane (CH4) and Propane (C3H8) up to 0-100% volume of selective range. Contact us to learn more.",
+        "Contact NdyCommunications today for a free consultation and quote",
+        "Professional installation services for solar, security, and electrical systems.",
+        "© 2024 NdyCommunications. All rights reserved."
+      ],
+      "links": [
+        {
+          "href": "/",
+          "text": "NdyComms"
+        },
+        {
+          "href": "/",
+          "text": "Home"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/services",
+          "text": "Services"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/blog",
+          "text": "Blog"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "/quote",
+          "text": "Get Quote"
+        },
+        {
+          "href": "/contact",
+          "text": "Request for Quote"
+        },
+        {
+          "href": "/services#solar",
+          "text": "Solar Installation"
+        },
+        {
+          "href": "/services#cctv",
+          "text": "CCTV Systems"
+        },
+        {
+          "href": "/services#intercom",
+          "text": "Intercom Systems"
+        },
+        {
+          "href": "/services#fencing",
+          "text": "Electric Fencing"
+        },
+        {
+          "href": "/services#fire",
+          "text": "Fire Detection"
+        },
+        {
+          "href": "/about",
+          "text": "About Us"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/blog",
+          "text": "Blog"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "/quote",
+          "text": "Get Quote"
+        },
+        {
+          "href": "mailto:info@ndycomms.com",
+          "text": "Email: info@ndycomms.com"
+        },
+        {
+          "href": "tel:+234 123 456 7890",
+          "text": "Phone: +234 123 456 7890"
+        },
+        {
+          "href": "https://maps.google.com",
+          "text": "Address: Lagos, Nigeria"
+        }
+      ],
+      "lastUpdated": "2024-12-25T21:26:30.910Z"
+    },
+    "/about": {
+      "title": "NdyComms - Solar & Security Solutions",
+      "headings": [
+        "Learn About NdyCommunications",
+        "Our Vision",
+        "Our Mission",
+        "Our Core Values",
+        "Quality",
+        "Excellence",
+        "Integrity",
+        "Innovation",
+        "Sustainability",
+        "Our Track Record",
+        "NdyCommunications",
+        "Services",
+        "Quick Links",
+        "Contact Info"
+      ],
+      "paragraphs": [
+        "World-class energy, automation and security systems organization",
+        "NdyCommunications specializes in solar energy and security solutions for residential and industrial facilities. We bring technologically inclined solutions that enhance your lifestyle and business. Our innovative technology adds value to your property while providing reliable power and security.",
+        "The need to add value to your facility by introducing technology led to the incorporation of NdyComms in 2014. Since then, we have been at the forefront of technology advancement by introducing systems and technologies for securing, protecting, and improving the values of facilities and homes. We are in partnership with renowned companies that provide us access to top-class products, efficient support and field-based training to foster our growth and maintain customer loyalty.",
+        "At NdyComms, we bring the best application of technology to enhance your property's security and power solutions. We provide real-time monitoring and reliable power systems that you can count on. You can count on our expertise and experience to meet and surpass your project goals.",
+        "Our vision is to be the leading provider of integrated solar energy and security solutions, revolutionizing the way people experience their living and working spaces.",
+        "Our mission is to provide integrated solar energy and security solutions for a smarter and more sustainable future.",
+        "Our business core values are underpinned by these five principles",
+        "Quality always! We offer high-quality service using top-grade materials for all our projects. We maintain top quality always through excellent Quality Assurance and Quality Control measures put in place. We understand and abide by the quality procedures of the regions we operate.",
+        "The best or nothing! We always strive to be the best by always delivering excellent and perfect projects. We follow due process and use the best practices to achieve our results.",
+        "We maintain customer loyalty by staying true to an agreement and sharing information that will benefit and add value to our customers.",
+        "We stay abreast of technology with good investment in research and development and harnessing the skills and experience of our in-house engineers. We strive to continue to lead by offering cost-effective and reliable solar power and security solutions enhanced by technology.",
+        "As a business, we continually strive to conduct our businesses by following measures and procedures that minimize environmental impact. Reduction of carbon footprint and implementation of a more sustainable and environmentally friendly approach is at the core of all our operations and processes.",
+        "We are rightly positioned to render relevant support and effective services to the oil & gas and power sectors in Nigeria. As an emerging technology company in Nigeria, we have undertaken various projects for both private and commercial establishments at both onshore and offshore locations. Since incorporation in 2014, we have completed over 300 projects and installations in different parts of Nigeria, which range from Solar Inverter installation, CCTV installation, Procurements, and several other services.",
+        "Professional installation services for solar, security, and electrical systems.",
+        "© 2024 NdyCommunications. All rights reserved."
+      ],
+      "links": [
+        {
+          "href": "/",
+          "text": "NdyComms"
+        },
+        {
+          "href": "/",
+          "text": "Home"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/services",
+          "text": "Services"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/blog",
+          "text": "Blog"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "/quote",
+          "text": "Get Quote"
+        },
+        {
+          "href": "/services#solar",
+          "text": "Solar Installation"
+        },
+        {
+          "href": "/services#cctv",
+          "text": "CCTV Systems"
+        },
+        {
+          "href": "/services#intercom",
+          "text": "Intercom Systems"
+        },
+        {
+          "href": "/services#fencing",
+          "text": "Electric Fencing"
+        },
+        {
+          "href": "/services#fire",
+          "text": "Fire Detection"
+        },
+        {
+          "href": "/about",
+          "text": "About Us"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/blog",
+          "text": "Blog"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "/quote",
+          "text": "Get Quote"
+        },
+        {
+          "href": "mailto:info@ndycomms.com",
+          "text": "Email: info@ndycomms.com"
+        },
+        {
+          "href": "tel:+234 123 456 7890",
+          "text": "Phone: +234 123 456 7890"
+        },
+        {
+          "href": "https://maps.google.com",
+          "text": "Address: Lagos, Nigeria"
+        }
+      ],
+      "lastUpdated": "2024-12-25T21:26:31.122Z"
+    },
+    "/blog": {
+      "title": "NdyComms - Solar & Security Solutions",
+      "headings": [
+        "Our Blog",
+        "The Benefits of Solar Energy for Your Home",
+        "Modern Security Systems: A Complete Guide",
+        "Fire Detection Systems: Saving Lives and Property",
+        "Smart Intercom Systems for Modern Homes",
+        "Maximizing Solar Panel Efficiency",
+        "Electric Fencing: Safety and Security",
+        "Subscribe to Our Newsletter",
+        "NdyCommunications",
+        "Services",
+        "Quick Links",
+        "Contact Info"
+      ],
+      "paragraphs": [
+        "Stay updated with the latest news and insights in solar energy and security systems",
+        "Discover how solar energy can reduce your electricity bills and help the environment...",
+        "Learn about the latest advancements in home and business security systems...",
+        "Understanding the importance of early fire detection and prevention...",
+        "Explore the features of modern intercom systems and their benefits...",
+        "Tips and tricks to get the most out of your solar panel installation...",
+        "Everything you need to know about electric fence installation and maintenance...",
+        "Get the latest updates and insights delivered to your inbox",
+        "Professional installation services for solar, security, and electrical systems.",
+        "© 2024 NdyCommunications. All rights reserved."
+      ],
+      "links": [
+        {
+          "href": "/",
+          "text": "NdyComms"
+        },
+        {
+          "href": "/",
+          "text": "Home"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/services",
+          "text": "Services"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/blog",
+          "text": "Blog"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "/quote",
+          "text": "Get Quote"
+        },
+        {
+          "href": "/blog/1",
+          "text": "The Benefits of Solar Energy for Your Home"
+        },
+        {
+          "href": "/blog/1",
+          "text": "Read More →"
+        },
+        {
+          "href": "/blog/2",
+          "text": "Modern Security Systems: A Complete Guide"
+        },
+        {
+          "href": "/blog/2",
+          "text": "Read More →"
+        },
+        {
+          "href": "/blog/3",
+          "text": "Fire Detection Systems: Saving Lives and Property"
+        },
+        {
+          "href": "/blog/3",
+          "text": "Read More →"
+        },
+        {
+          "href": "/blog/4",
+          "text": "Smart Intercom Systems for Modern Homes"
+        },
+        {
+          "href": "/blog/4",
+          "text": "Read More →"
+        },
+        {
+          "href": "/blog/5",
+          "text": "Maximizing Solar Panel Efficiency"
+        },
+        {
+          "href": "/blog/5",
+          "text": "Read More →"
+        },
+        {
+          "href": "/blog/6",
+          "text": "Electric Fencing: Safety and Security"
+        },
+        {
+          "href": "/blog/6",
+          "text": "Read More →"
+        },
+        {
+          "href": "/services#solar",
+          "text": "Solar Installation"
+        },
+        {
+          "href": "/services#cctv",
+          "text": "CCTV Systems"
+        },
+        {
+          "href": "/services#intercom",
+          "text": "Intercom Systems"
+        },
+        {
+          "href": "/services#fencing",
+          "text": "Electric Fencing"
+        },
+        {
+          "href": "/services#fire",
+          "text": "Fire Detection"
+        },
+        {
+          "href": "/about",
+          "text": "About Us"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/blog",
+          "text": "Blog"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "/quote",
+          "text": "Get Quote"
+        },
+        {
+          "href": "mailto:info@ndycomms.com",
+          "text": "Email: info@ndycomms.com"
+        },
+        {
+          "href": "tel:+234 123 456 7890",
+          "text": "Phone: +234 123 456 7890"
+        },
+        {
+          "href": "https://maps.google.com",
+          "text": "Address: Lagos, Nigeria"
+        }
+      ],
+      "lastUpdated": "2024-12-25T21:26:31.290Z"
+    },
+    "/projects": {
+      "title": "NdyComms - Solar & Security Solutions",
+      "headings": [
+        "NdyComms Projects",
+        "Commercial Solar Installation",
+        "Residential Security System",
+        "Industrial Solar Project",
+        "Apartment Complex Intercom",
+        "School Solar Power",
+        "Mall Security Setup",
+        "Quick Installation Guides",
+        "Best Solar Power Banks - Solar Charging Test!",
+        "Harbor Freight Solar Panel Review",
+        "Portable Power Station for Home",
+        "Solar Power Bank Review",
+        "Solar Installation Tips",
+        "Ready to Start Your Project with NdyCommunications?",
+        "NdyCommunications",
+        "Services",
+        "Quick Links",
+        "Contact Info"
+      ],
+      "paragraphs": [
+        "Explore our portfolio of successful installations and implementations across Nigeria",
+        "100kW solar system installation for office complex",
+        "Lagos Business District",
+        "Reduced energy costs by 60%",
+        "Comprehensive home security installation",
+        "Victoria Island",
+        "Integrated CCTV and access control",
+        "Large-scale industrial solar installation",
+        "Apapa Industrial Estate",
+        "500kW system with battery backup",
+        "Smart intercom system for 50-unit complex",
+        "Lekki Phase 1",
+        "Mobile app integration",
+        "50kW solar installation with battery backup",
+        "Ikeja",
+        "100% backup power solution",
+        "Complete mall surveillance system",
+        "Surulere Shopping Center",
+        "PTZ cameras with AI detection",
+        "Let's discuss how we can help you achieve your goals",
+        "Professional installation services for solar, security, and electrical systems.",
+        "© 2024 NdyCommunications. All rights reserved."
+      ],
+      "links": [
+        {
+          "href": "/",
+          "text": "NdyComms"
+        },
+        {
+          "href": "/",
+          "text": "Home"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/services",
+          "text": "Services"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/blog",
+          "text": "Blog"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "/quote",
+          "text": "Get Quote"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact Us"
+        },
+        {
+          "href": "/services#solar",
+          "text": "Solar Installation"
+        },
+        {
+          "href": "/services#cctv",
+          "text": "CCTV Systems"
+        },
+        {
+          "href": "/services#intercom",
+          "text": "Intercom Systems"
+        },
+        {
+          "href": "/services#fencing",
+          "text": "Electric Fencing"
+        },
+        {
+          "href": "/services#fire",
+          "text": "Fire Detection"
+        },
+        {
+          "href": "/about",
+          "text": "About Us"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/blog",
+          "text": "Blog"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "/quote",
+          "text": "Get Quote"
+        },
+        {
+          "href": "mailto:info@ndycomms.com",
+          "text": "Email: info@ndycomms.com"
+        },
+        {
+          "href": "tel:+234 123 456 7890",
+          "text": "Phone: +234 123 456 7890"
+        },
+        {
+          "href": "https://maps.google.com",
+          "text": "Address: Lagos, Nigeria"
+        }
+      ],
+      "lastUpdated": "2024-12-25T21:26:31.456Z"
+    },
+    "/contact": {
+      "title": "NdyComms - Solar & Security Solutions",
+      "headings": [
+        "Contact Us",
+        "Phone",
+        "Email",
+        "Location",
+        "Send us a Message",
+        "NdyCommunications",
+        "Services",
+        "Quick Links",
+        "Contact Info"
+      ],
+      "paragraphs": [
+        "Get in touch with our team for any inquiries or support",
+        "+234 123 456 7890",
+        "Mon-Fri 9am-5pm",
+        "info@ndycomms.com",
+        "support@ndycomms.com",
+        "Lagos, Nigeria",
+        "Professional installation services for solar, security, and electrical systems.",
+        "© 2024 NdyCommunications. All rights reserved."
+      ],
+      "links": [
+        {
+          "href": "/",
+          "text": "NdyComms"
+        },
+        {
+          "href": "/",
+          "text": "Home"
+        },
+        {
+          "href": "/about",
+          "text": "About"
+        },
+        {
+          "href": "/services",
+          "text": "Services"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/blog",
+          "text": "Blog"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "/quote",
+          "text": "Get Quote"
+        },
+        {
+          "href": "/services#solar",
+          "text": "Solar Installation"
+        },
+        {
+          "href": "/services#cctv",
+          "text": "CCTV Systems"
+        },
+        {
+          "href": "/services#intercom",
+          "text": "Intercom Systems"
+        },
+        {
+          "href": "/services#fencing",
+          "text": "Electric Fencing"
+        },
+        {
+          "href": "/services#fire",
+          "text": "Fire Detection"
+        },
+        {
+          "href": "/about",
+          "text": "About Us"
+        },
+        {
+          "href": "/projects",
+          "text": "Projects"
+        },
+        {
+          "href": "/blog",
+          "text": "Blog"
+        },
+        {
+          "href": "/contact",
+          "text": "Contact"
+        },
+        {
+          "href": "/quote",
+          "text": "Get Quote"
+        },
+        {
+          "href": "mailto:info@ndycomms.com",
+          "text": "Email: info@ndycomms.com"
+        },
+        {
+          "href": "tel:+234 123 456 7890",
+          "text": "Phone: +234 123 456 7890"
+        },
+        {
+          "href": "https://maps.google.com",
+          "text": "Address: Lagos, Nigeria"
+        }
+      ],
+      "lastUpdated": "2024-12-25T21:26:31.630Z"
+    }
+  },
+  "lastScraped": "2024-12-25T21:26:29.494Z"
+}

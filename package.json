@@ -7,11 +7,11 @@
     "node": ">=18.0.0"
   },
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js",
+    "start": "node start.js",
+    "dev": "nodemon start.js",
     "vercel-build": "npm install && mkdir -p public && cp -r public/* .",
     "build": "npm run vercel-build",
-    "serve": "npx http-server public -p 5000 & node server.js"
+    "serve": "node start.js"
   },
   "dependencies": {
     "axios": "^1.7.9",
@@ -20,6 +20,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "natural": "^8.0.1",
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {

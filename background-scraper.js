@@ -5,12 +5,14 @@ const path = require('path');
 
 class BackgroundScraper {
     constructor() {
-        this.baseUrl = 'https://crowsstack.com.ng';
+        this.baseUrl = 'https://solar-t-wl47.vercel.app';
         this.pages = [
             '/',
-            '/company',
-            '/faq',
-            '/products',
+            '/quote',
+            '/services',
+            '/about',
+            '/blog',
+            '/projects',
             '/contact'
         ];
         this.scrapedDataFile = path.join(__dirname, 'scraped-data.json');

@@ -6,15 +6,17 @@ const cleanText = require('./utils/textProcessor');
 
 class WebScraper {
     constructor() {
-        this.baseUrl = 'https://crowsstack.com.ng';
+        this.baseUrl = 'https://solar-t-wl47.vercel.app';
         this.pages = [
             '/',
-            '/company',
-            '/faq',
-            '/products',
+            '/quote',
+            '/services',
+            '/about',
+            '/blog',
+            '/projects',
             '/contact'
         ];
-        this.scrapedDataFile = path.join(__dirname, 'scraped-data.json');
+        this.scrapedDataFile = path.join(__dirname, 'crowsstack.json'); // Change to crowsstack.json
         this.isRunning = false;
     }
 
@@ -127,47 +129,49 @@ class WebScraper {
         }
 
         // Process the entire dataset
-        return {
-            ...scrapedData,
-            processed: true,
-            version: '1.0'
-        };
-    }
-
-    async saveData(data) {
-        try {
-            await fs.writeFile(this.scrapedDataFile, JSON.stringify(data, null, 2));
-            console.log('Scraped data saved successfully');
-        } catch (error) {
-            console.error('Error saving scraped data:', error);
-        }
-    }
-
-    async start() {
-        if (this.isRunning) return;
-        this.isRunning = true;
-
-        const updateInterval = 30 * 60 * 1000; // 30 minutes
-        
-        const runScraper = async () => {
-            try {
-                console.log('Starting scrape cycle:', new Date().toISOString());
-                const data = await this.scrapeAll();
-                await this.saveData(data);
-                console.log('Scrape cycle completed:', new Date().toISOString());
-            } catch (error) {
-                console.error('Error in scrape cycle:', error);
+                // Process the entire dataset
+                return {
+                    ...scrapedData,
+                    processed: true,
+                    version: '1.0'
+                };
             }
-        };
-
-        // Initial scrape
-        await runScraper();
-
-        // Set up regular interval
-        setInterval(runScraper, updateInterval);
-    }
-}
-
-// Start the background scraper
-const scraper = new WebScraper();
-scraper.start().catch(console.error);
+        
+            async saveData(data) {
+                try {
+                    // Save the scraped data to crowsstack.json in the root directory
+                    await fs.writeFile(this.scrapedDataFile, JSON.stringify(data, null, 2));
+                    console.log('Scraped data saved successfully to crowsstack.json');
+                } catch (error) {
+                    console.error('Error saving scraped data:', error);
+                }
+            }
+        
+            async start() {
+                if (this.isRunning) return;
+                this.isRunning = true;
+        
+                const updateInterval = 30 * 60 * 1000; // 30 minutes
+                
+                const runScraper = async () => {
+                    try {
+                        console.log('Starting scrape cycle:', new Date().toISOString());
+                        const data = await this.scrapeAll();
+                        await this.saveData(data);
+                        console.log('Scrape cycle completed:', new Date().toISOString());
+                    } catch (error) {
+                        console.error('Error in scrape cycle:', error);
+                    }
+                };
+        
+                // Initial scrape
+                await runScraper();
+        
+                // Set up regular interval
+                setInterval(runScraper, updateInterval);
+            }
+        }
+        
+        // Start the background scraper
+        const scraper = new WebScraper();
+        scraper.start().catch(console.error);

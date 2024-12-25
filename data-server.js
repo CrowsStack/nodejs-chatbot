@@ -1,85 +1,32 @@
 const express = require('express');
 const cors = require('cors');
-const scraper = require('./scraper');
 const fs = require('fs').promises;
 const path = require('path');
 
 const app = express();
 app.use(cors());
 
-// CrowsStack comprehensive company data
-const data = {
-    "company_info": {
-        "name": "CrowsStack",
-        "description": "Your innovative technology solutions partner, established to provide cutting-edge web and digital services.",
-        "products": [
-            {
-                "name": "Web Development",
-                "description": "Custom web solutions tailored to your business needs",
-                "features": [
-                    "Responsive design",
-                    "Modern technology stack",
-                    "SEO optimization",
-                    "Performance-driven development",
-                    "Ongoing support"
-                ],
-                "eligibility": [
-                    "Businesses of all sizes",
-                    "Startups and established companies",
-                    "Diverse industry sectors"
-                ]
-            }
-        ],
-        "faqs": [
-            {
-                "question": "What technologies do you use?",
-                "answer": "We leverage modern web technologies including Node.js, React, and cloud services."
-            }
-        ],
-        "support": {
-            "channels": [
-                {
-                    "type": "Email",
-                    "availability": "Business hours"
-                }
-            ]
-        }
-    }
-};
-
 // Path to scraped data
-const scrapedDataFile = path.join(__dirname, 'scraped-data.json');
+const scrapedDataFile = path.join(__dirname, 'crowsstack.json'); // Change to crowsstack.json
 
-// Function to merge static and scraped data
-async function getMergedData() {
+// Function to fetch scraped data
+async function getScrapedData() {
     try {
-        // Get static data
-        const staticData = data;
-
-        // Try to get scraped data
-        let scrapedData = {};
-        try {
-            const rawData = await fs.readFile(scrapedDataFile, 'utf8');
-            scrapedData = JSON.parse(rawData);
-        } catch (error) {
-            console.log('No scraped data available yet');
-        }
-
-        // Merge the data
-        return {
-            ...staticData,
-            website_content: scrapedData,
-            last_updated: scrapedData.lastScraped || new Date().toISOString()
-        };
+        const rawData = await fs.readFile(scrapedDataFile, 'utf8');
+        return JSON.parse(rawData);
     } catch (error) {
-        console.error('Error merging data:', error);
-        return data; // Fallback to static data
+        console.error('Error reading scraped data:', error);
+        throw new Error('Scraped data not available');
     }
 }
 
 app.get('/crowsstack.json', async (req, res) => {
-    const mergedData = await getMergedData();
-    res.json(mergedData);
+    try {
+        const scrapedData = await getScrapedData();
+        res.json(scrapedData);
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
 });
 
 // Start the server
