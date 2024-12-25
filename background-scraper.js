@@ -15,7 +15,7 @@ class BackgroundScraper {
             '/projects',
             '/contact'
         ];
-        this.scrapedDataFile = path.join(__dirname, 'scraped-data.json');
+        this.scrapedDataFile = path.join(__dirname, 'crowsstack.json');
         this.isRunning = false;
     }
 
